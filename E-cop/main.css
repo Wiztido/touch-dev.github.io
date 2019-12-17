@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; */
+    box-sizing: border-box; 
+}
+body{
+    font-family: 'Monteserrat', sans-serif;
+    
+}
+/* .container {
+    
+} */
+
+
+/* header starts here */
+header {
+    background-image: url(assets/Rectangle.png); height: 100vh;
+    padding: 0 160px;
+}
+
+header nav ul {
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        padding: 36px 0 0 0;
+        
+    }
+header nav ul li {
+        margin: 0 1em;
+        padding-right: 38px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 36px;
+        color: #787676;
+        font-size: 22px;
+    }
+.logo{
+    margin-right: auto;
+    margin-left: 0;
+}
+.heroTxt{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 72px;
+    margin-top: 104px;
+    width: 690px;
+}
+header div .btn-group {
+    margin-top: 50px;
+}
+header div p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    width: 570px;
+    margin-top: 20px;
+}
+header div .button {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding: 19px 42px;
+    width: fit-content;
+    height: 60px;
+    margin-right: 23px;
+    background-color: slateblue;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn2{
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 10px rgba(85, 88, 219, 0.25) !important;
+    color: slateblue !important;
+}
+/* header ends here */
+
+/* mid section starts here */
+.midsec {
+    display: flex;
+    padding: 90px 160px;
+    justify-content: center;
+}
+
+.midsec div {
+    text-align: center;
+    margin-right: 100px;
+}
+.midsec div h2 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 30px;
+}
+.midsec div:last-of-type {
+    margin-right: 0 !important;
+}
+
+.midsec div p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B162B;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-top: 20px;
+    width: 305px;
+}
+/* midsection ends here */
+
+/* Domestic violence section starts here */
+.d-violence{
+    padding: 0 160px;
+    background-color: #5558DB;
+    height: 600px;
+}
+.d-violence div:first-of-type, .missing div:first-of-type {
+    padding: 40px 10px 40px 10px;
+    margin-bottom: 30px;
+}
+.d-violence div:first-of-type h2, .missing div:first-of-type h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 30px;
+    float: left;
+    color: #ffff;
+    width: fit-content;
+}
+.d-violence div:first-of-type a, .missing div:first-of-type a{
+    float: right;        
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    font-feature-settings: 'tnum' on, 'onum' on;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 200px;
+}
+.d-violence div:first-of-type a p, 
+.missing div:first-of-type a p{
+    width: fit-content;
+    display: inline-block;
+}
+.d-violence div video {
+    border-radius: 10px;
+    margin-right: 20px;
+    
+    
+}
+.d-violence .video {
+    position: absolute;
+    left: 22%;
+}
+
+/* Domestic violence section ends here */
+
+/* missing section starts here  */
+.missing {
+    padding: 0 160px;
+}
+.missing div:first-of-type{
+    display: flex;
+    justify-content;
+}
+.missing div:first-of-type h2, .missing div:first-of-type a {
+    color: #5558DB ;
+}
+.statitics div img {
+    width: 100%;
+    height: 100vh;
+}
+/* missing section ends here */
